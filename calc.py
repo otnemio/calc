@@ -1,8 +1,8 @@
 while True:
-   print("Menu\t\t..")
-   print("Expression\t1")
-   print("Data Entry\t2")
-   choice = input("Enter choice(../1/2):")
+   print("Menu\t\t[..]")
+   print("Expression\t[ 1]")
+   print("Data Entry\t[ 2]")
+   choice = input("Enter choice\t")
    if choice == '1':
       while True:
          expr = input()
