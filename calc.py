@@ -2,9 +2,7 @@ while True:
    print("Select operation.")
    print("1.Expression")
    print("2.Data Entry")
-   print("3.Multiply")
-   print("4.Divide")
-   choice = input("Enter choice(1/2/3/4):")
+   choice = input("Enter choice(1/2):")
    if choice == '1':
       while True:
          expr = input()
