@@ -14,8 +14,7 @@ while True:
       while True:
          expr = input()
          if expr != "..":
-            sum += int(eval(input()))
-         else
+            sum += int(eval(expr))
+         else:
             print(sum)
-         break
-         
+            break
